@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^0.19.0",
-    "bootstrap": "4.2.1",
+    "axios": "^0.27.2",
+    "bootstrap": "^4.6.2",
     "core-js": "^3.6.5",
     "jquery": "^3.6.0",
     "jquery-migrate": "^3.3.2",

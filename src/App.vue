@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <HomeView />
+  <ContactView />
   <Footer />
 </template>
 
@@ -8,6 +8,7 @@
 import Header from './components/Header.vue'
 import Footer from './components/Footer.vue'
 import HomeView from './views/HomeView.vue'
+import ContactView from './views/ContactView.vue';
 const oldScripts = [
   // 'oldjs/jquery.min.js',
   'oldjs/jquery-migrate-3.0.1.min.js',
@@ -30,7 +31,8 @@ export default {
   components: {
     Header,
     Footer,
-    HomeView
+    HomeView,
+    ContactView
   },
   created() {
     let oldScript = document.createElement('script')
